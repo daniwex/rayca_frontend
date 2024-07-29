@@ -11,7 +11,7 @@ export default function Navbar() {
   const pathname = usePathname();
   return (
     <nav className="bg-[#1F1F21] text-white sm:w-1/6 xl:w-[10%] h-20 sm:py-4 sm:h-screen fixed sm:px-2 sm:p-5 z-10 sm:z-0 sm:flex-col sm:justify-between sm:flex">
-      <div className="w-screen sm:w-0 sm:hidden  bg-[#161618] h-20 p-7">
+      <div className="w-screen sm:w-0 sm:hidden  bg-[#161618] h-20 px-5 py-7">
         <div className="flex justify-between items-center">
           <span className="font-bold">Rayca</span>
           <button><i class="fas fa-bars"></i></button>

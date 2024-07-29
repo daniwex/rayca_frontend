@@ -73,16 +73,16 @@ export default function page() {
           </div>
         </div>
 
-        <div className="mt-5 text-xs">
+        <div className="mt-5 text-[0.65rem] sm:text-xs">
           <div className="flex justify-between border-b-2 border-y-[#1F1F21] pb-1 mb-5">
             <div className="flex items-center">
               <Icon iconImage={<i class="fab fa-chrome "></i>} /> Brave on Mac OS
               X
             </div>
-            <div className="text-[#7b7b7f] sm:w-1/3 flex justify-between text-xs">
+            <div className="text-[#7b7b7f] sm:w-1/3 flex justify-between sm:text-xs">
               <span>Ninh Binh, Vietnam</span>
               <span>Current session</span>
-              <span>
+              <span className="pl-2 sm:pl-0">
                 <i class="fas fa-trash-alt"></i>
               </span>
             </div>
@@ -92,10 +92,10 @@ export default function page() {
               <Icon iconImage={<i class="fab fa-apple"></i>} /> Mia's Macbook
               Pro
             </div>
-            <div className="text-[#7b7b7f] sm:w-1/3 flex justify-between text-xs">
+            <div className="text-[#7b7b7f] sm:w-1/3 flex justify-between sm:text-xs">
               <span>Ninh Binh, Vietnam</span>
               <span>Current session</span>
-              <span>
+              <span className="pl-2 sm:pl-0">
                 <i class="fas fa-trash-alt"></i>
               </span>
             </div>
@@ -105,10 +105,10 @@ export default function page() {
               <Icon iconImage={<i class="fab fa-chrome"></i>} />
               Brave on Mac OS X
             </div>
-            <div className="text-[#7b7b7f] sm:w-1/3 flex justify-between text-xs">
+            <div className="text-[#7b7b7f] sm:w-1/3 flex justify-between sm:text-xs">
               <span>Mexico City, Mexico</span>
               <span>1 month ago</span>
-              <span>
+              <span className="pl-2 sm:pl-0">
                 <i class="fas fa-trash-alt"></i>
               </span>
             </div>
@@ -118,10 +118,10 @@ export default function page() {
               <Icon iconImage={<i class="fab fa-apple"></i>} />
               Mia's Macbook Pro
             </div>
-            <div className="text-[#7b7b7f] sm:w-1/3 flex justify-between text-xs">
+            <div className="text-[#7b7b7f] sm:w-1/3 flex justify-between sm:text-xs">
               <span>Mexico City, Mexico</span>
               <span>1 month ago</span>
-              <span>
+              <span className="pl-2 sm:pl-0">
                 <i class="fas fa-trash-alt"></i>
               </span>
             </div>
