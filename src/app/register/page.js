@@ -11,9 +11,14 @@ export default function Home() {
       <div className="sm:w-2/5">
         <div className="flex justify-between h-[5%] sm:px-5 xl:px-20 p-7  items-center">
           <span className="font-bold">Rayca</span>
-          <Link className="text-sm underline text-blue-600" href="/">
-            Log in
-          </Link>
+          <div>
+            <Link className="text-sm underline text-blue-600" href="/register">
+              Log in
+            </Link>
+            <Link className="text-sm underline text-blue-600 ml-3" href="/dashboard">
+              Dashboard
+            </Link>
+          </div>
         </div>
         <div className="sm:h-[95%] h-[60vh]  flex items-center sm:justify-center xl:justify-start xl:pl-20">
           <form className="w-full xl:w-2/3 p-7">

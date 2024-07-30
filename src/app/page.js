@@ -6,9 +6,14 @@ export default function Home() {
       <div className="sm:w-2/5">
         <div className="flex justify-between h-[5%] sm:px-5 xl:px-20 p-7 items-center">
           <span className="font-bold">Rayca</span>
-          <Link className="text-sm underline text-blue-600" href="/register">
-            Create an account
-          </Link>
+          <div>
+            <Link className="text-sm underline text-blue-600" href="/register">
+              Create an account
+            </Link>
+            <Link className="text-sm underline text-blue-600 ml-3" href="/dashboard">
+              Dashboard
+            </Link>
+          </div>
         </div>
         <div className="sm:h-[95%] h-[60vh] flex items-center sm:justify-center xl:justify-start xl:pl-20">
           <form className="w-full xl:w-2/3 p-7">
@@ -39,7 +44,9 @@ export default function Home() {
                 autoComplete="current-password"
               />
             </div>
-            <button className="bg-purple-600 text-white py-3 px-10 md:text-sm">Sign in</button>
+            <button className="bg-purple-600 text-white py-3 px-10 md:text-sm">
+              Sign in
+            </button>
           </form>
         </div>
       </div>
@@ -52,7 +59,10 @@ export default function Home() {
             voluptatum laborum numquam blanditiis harum quisquam eius sed odit
             fugiat iusto fuga praesentium optio
           </p>
-          <img className="w-[97%] pt-4 relative left-28 xl:pt-9 xl:left-40" src="assets\images\Frontend Task Attachment.png"></img>
+          <img
+            className="w-[97%] pt-4 relative left-28 xl:pt-9 xl:left-40"
+            src="assets\images\Frontend Task Attachment.png"
+          ></img>
         </div>
       </div>
     </div>
