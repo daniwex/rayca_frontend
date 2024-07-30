@@ -12,7 +12,7 @@ export default function Home() {
         <div className="flex justify-between h-[5%] sm:px-5 xl:px-20 p-7  items-center">
           <span className="font-bold">Rayca</span>
           <div>
-            <Link className="text-sm underline text-blue-600" href="/register">
+            <Link className="text-sm underline text-blue-600" href="/">
               Log in
             </Link>
             <Link className="text-sm underline text-blue-600 ml-3" href="/dashboard">
